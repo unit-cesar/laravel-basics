@@ -4,6 +4,24 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Bootstrap Steps
+    |--------------------------------------------------------------------------
+	| git clone...
+	| install npm
+	| composer update
+	| //Altera nome, versão...
+	| //Criar banco (utf8_general_ci)
+	| //Editar '.env' e 'config/database.php'
+	| php artisan migrate:refresh --seed
+	| //Renova APP_KEY
+	| php artisan key:generate
+	| composer dump-autoload
+	| php artisan serve
+    |
+    */
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Name
     |--------------------------------------------------------------------------
     |
